@@ -1,0 +1,35 @@
+body{
+    background-color: #2d2d2ded;
+}
+p,h2,h3,h4,label {
+    color: rgb(255, 255, 255);
+}
+#winner{
+    width: 100%;
+    display: none;
+}
+#loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#lool{
+    border-radius: 20px;
+}
+.list-group-item{
+    background-color:grey;
+    color: rgb(255, 255, 255);
+}
+.loader-con{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ed;
+}
+.ErrorT{
+    color: red;
+}
